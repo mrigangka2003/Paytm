@@ -19,7 +19,7 @@ app.use('/api/v1', mainRouter);
 connectDB()
 .then(()=>{
     app.listen(8000 , ()=>{
-        console.log(`Server is running on the port : 8000`);
+        console.log(`Server is running on the port http://localhost:8000`);
     })
 })
 .catch((err)=>{
